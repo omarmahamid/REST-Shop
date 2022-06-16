@@ -96,6 +96,11 @@ example for persistent data in DB
 ![plot](./img/img_7.png)
 
 
+## Discount
+
+discount given by this formula
+
+![plot](./img/img_8.png)
 
 ## Author: 
 
