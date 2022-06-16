@@ -34,6 +34,11 @@ ERD diagram for the tables
 ![plot](./img/img_1.png)
 
 
+need to persist in the DB
+
+![plot](./img/img_7.png)
+
+
 ## API's
 
 see how to use the api's from the docs directory
@@ -86,5 +91,6 @@ example for queryCatalog result
 
 
 
-###Author: 
+## Author: 
+
 Omar Mahamid
