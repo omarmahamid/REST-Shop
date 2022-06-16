@@ -36,7 +36,7 @@ ERD diagram for the tables
 
 ## API's
 
-see how to use the api's from the docs
+see how to use the api's from the docs directory
 
 examples : 
 
@@ -79,7 +79,7 @@ sequence diagrams
 ![plot](./img/img_4.png)
 
 
-
+## Response
 example for queryCatalog result
 
 ![plot](./img/img_6.png)
