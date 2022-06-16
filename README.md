@@ -34,7 +34,7 @@ ERD diagram for the tables
 ![plot](./img/img_1.png)
 
 
-###API's
+## API's
 
 see how to use the api's from the docs
 
@@ -55,14 +55,14 @@ http://localhost:8080/server/execute
 ```
 
 
-###High-Level Architecture
+## High-Level Architecture
 ```
 in the furure I will add cache DB, Rate Limiter, reading about kafka and will add it.
 ```
 ![plot](./img/img_2.png)
 
 
-###Low-Level Architecture
+## Low-Level Architecture
 ```
 all of the diagrams under docs/diagrams
 ```
