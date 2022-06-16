@@ -1,0 +1,11 @@
+=== Content for Add Item Request
+====
+[source,json,options="nowrap"]
+....
+{
+  "type": "addItemIntoShop",
+  "item": {
+        "id":"123",
+        "ownerId" : "312"
+    }
+}

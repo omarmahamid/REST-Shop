@@ -1,0 +1,18 @@
+=== Content for purchass
+
+====
+this is the second api if we want to buy mutilple items
+[source,json,options="nowrap"]
+
+
+{
+  "type": "purchase"
+  "customerId" : "",
+  "items": {
+        "id1" : "",
+        "id2" : "",
+        ...
+  },
+  "paymentMethod" : ""
+}
+

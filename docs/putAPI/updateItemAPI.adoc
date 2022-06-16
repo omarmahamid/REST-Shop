@@ -1,0 +1,15 @@
+=== Content for Add Item Request
+====
+not all the updates parameter necessary
+[source,json,options="nowrap"]
+....
+{
+  "type": "updateItem",
+  "ownerId" : "",
+  "itemId" : "",
+  "updates": {
+        "name" : "",
+        "price" : "",
+        "catalogId" : ""
+    }
+}

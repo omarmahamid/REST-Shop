@@ -1,0 +1,14 @@
+=== Content for purchass
+
+====
+register owners
+all register API's are POST request
+[source,json,options="nowrap"]
+
+
+{
+  "type": "registerOwner",
+  "id" : "123",
+  "name" : "Omar",
+  "email" : "omar.taiseerr@gmail.com"
+}

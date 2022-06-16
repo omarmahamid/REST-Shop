@@ -1,0 +1,13 @@
+=== Content for update Catalog
+====
+can't update Id :).
+[source,json,options="nowrap"]
+....
+{
+  "type": "updateCatalog",
+  "ownerId" : "",
+  "catalogId" : "",
+  "updates": {
+        "name" : ""
+    }
+}

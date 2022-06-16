@@ -1,0 +1,9 @@
+=== Content for remove catalog
+====
+[source,json,options="nowrap"]
+....
+{
+  "type": "removeCatalog",
+  "ownerId" : "",
+  "catalogId": ""
+}

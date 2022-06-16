@@ -1,0 +1,91 @@
+@startuml
+
+skinparam sequenceArrowThickness 1
+skinparam roundcorner 20
+
+interface ISrvHandler {
+    ServerRequest processRequest(DataHolder dataHolder)
+}
+
+interface ISrvPostHandler implements ISrvHandler
+interface ISrvGetHandler implements ISrvHandler
+interface ISrvPutHandler implements ISrvHandler
+interface ISrvDeleteHandler implements ISrvHandler
+
+
+class SrvHandlerAddItem<component> implements ISrvPostHandler {
+    @Autowired
+    JDBCTemplateExecutor jdbcTemplateExecutor
+    ServerRequest processRequest(DataHolder dataHolder)
+
+}
+
+class SrvHandlerRegister<component> implements ISrvPostHandler {
+@Autowired
+    JDBCTemplateExecutor jdbcTemplateExecutor
+    ServerRequest processRequest(DataHolder dataHolder)
+}
+class SrvHandlerAddItemIntoShop<component> implements ISrvPostHandler {
+@Autowired
+    JDBCTemplateExecutor jdbcTemplateExecutor
+    ServerRequest processRequest(DataHolder dataHolder)
+}
+class SrvHandlerAddCatalog<component> implements ISrvPostHandler {
+@Autowired
+    JDBCTemplateExecutor jdbcTemplateExecutor
+    ServerRequest processRequest(DataHolder dataHolder)
+}
+
+class SrvHandlerQueryCatalog<component> implements ISrvGetHandler{
+@Autowired
+    JDBCTemplateExecutor jdbcTemplateExecutor
+    ServerRequest processRequest(DataHolder dataHolder)
+}
+
+class SrvHandlerPurchase<component> implements ISrvGetHandler{
+@Autowired
+    JDBCTemplateExecutor jdbcTemplateExecutor
+    ServerRequest processRequest(DataHolder dataHolder)
+}
+
+class SrvHandlerUpdateCatalog<component> implements ISrvPutHandler{
+@Autowired
+    JDBCTemplateExecutor jdbcTemplateExecutor
+    ServerRequest processRequest(DataHolder dataHolder)
+}
+
+class SrvHandlerUpdateItem<component> implements ISrvPutHandler{
+@Autowired
+    JDBCTemplateExecutor jdbcTemplateExecutor
+    ServerRequest processRequest(DataHolder dataHolder)
+}
+
+class SrvHandlerRemoveCatalog<component> implements ISrvDeleteHandler{
+@Autowired
+    JDBCTemplateExecutor jdbcTemplateExecutor
+    ServerRequest processRequest(DataHolder dataHolder)
+}
+
+class SrvHandlerRemoveItem<component> implements ISrvDeleteHandler{
+@Autowired
+    JDBCTemplateExecutor jdbcTemplateExecutor
+    ServerRequest processRequest(DataHolder dataHolder)
+}
+
+interface SrvHandler<annotated>{
+ String name
+}
+
+SrvHandlerRemoveItem --> SrvHandler
+SrvHandlerRemoveCatalog --> SrvHandler
+SrvHandlerUpdateItem --> SrvHandler
+SrvHandlerUpdateCatalog --> SrvHandler
+SrvHandlerPurchase --> SrvHandler
+SrvHandlerQueryCatalog --> SrvHandler
+SrvHandlerAddCatalog --> SrvHandler
+SrvHandlerAddItemIntoShop --> SrvHandler
+SrvHandlerRegister --> SrvHandler
+SrvHandlerAddItem --> SrvHandler
+
+
+@enduml

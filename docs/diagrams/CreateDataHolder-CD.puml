@@ -1,0 +1,45 @@
+@startuml
+
+skinparam sequenceArrowThickness 1
+skinparam roundcorner 20
+
+class DataHolder {
+    private String body;
+    private String type;
+    private IDataAPI dataAPI;
+
+    void parse()
+}
+
+DataHolder *--> DataAPIFactory
+DataAPIFactory *--> IDataAPI
+
+interface IDataAPI{
+    void populate(JsonObject request)
+}
+
+class UpdateCatalogData implements IDataAPI{
+void populate(JsonObject request)
+}
+
+class UpdateItemData implements IDataAPI{
+void populate(JsonObject request)
+}
+
+class AddCatalogData implements IDataAPI{
+void populate(JsonObject request)
+}
+
+class AddItemData implements IDataAPI{
+void populate(JsonObject request)
+}
+
+class AddItemIntoShopData implements IDataAPI{
+void populate(JsonObject request)
+}
+
+
+class DataAPIFactory{
+static IDataAPI getInstance(String type)
+}
+@enduml

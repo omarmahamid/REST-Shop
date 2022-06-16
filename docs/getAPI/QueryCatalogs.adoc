@@ -1,0 +1,9 @@
+=== Content for query catalogs
+====
+[source,json,options="nowrap"]
+....
+{
+  "type": "queryCatalog",
+  "customerId" : "",
+  "catalogId" : ""
+}

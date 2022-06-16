@@ -1,0 +1,14 @@
+=== Content for Add Item Request
+====
+[source,json,options="nowrap"]
+....
+{
+  "type": "addItem",
+  "item": {
+        "id":"1",
+        "name" : "Iphone",
+        "sellerId" : "123",
+        "catalogId" : "1",
+        "price" : "5700"
+    }
+}

@@ -1,0 +1,12 @@
+=== Content for Add catalog
+====
+[source,json,options="nowrap"]
+....
+{
+    "type": "addCatalog",
+    "ownerId": "123",
+    "catalog": {
+        "id": "1",
+        "name": "Tech"
+    }
+}
