@@ -35,6 +35,9 @@ ERD diagram for the tables
 
 
 
+adding initial .yml file in resources to deploy to kubernetes in the future.
+
+
 ## API's
 
 see how to use the api's from the docs directory
