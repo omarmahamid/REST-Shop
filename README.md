@@ -34,10 +34,6 @@ ERD diagram for the tables
 ![plot](./img/img_1.png)
 
 
-need to persist in the DB
-
-![plot](./img/img_7.png)
-
 
 ## API's
 
@@ -84,10 +80,14 @@ sequence diagrams
 ![plot](./img/img_4.png)
 
 
-## Response
+## Response & Persistent in DB
 example for queryCatalog result
 
 ![plot](./img/img_6.png)
+
+
+example for persistent data in DB
+![plot](./img/img_7.png)
 
 
 
